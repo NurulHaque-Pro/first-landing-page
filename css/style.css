@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+/* Nav Section Styles */
+
+nav {
+    display: flex;
+    
+}
+
