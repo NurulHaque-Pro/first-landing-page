@@ -4,10 +4,30 @@
 
 }
 
+.text-primary-clr {
+    color: orange;
+}
+
 /* Nav Section Styles */
 
 nav {
     display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
     
 }
 
+nav h2.logo-title{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 20px;
+
+}
