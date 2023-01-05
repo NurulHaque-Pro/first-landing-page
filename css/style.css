@@ -46,6 +46,12 @@ p {
     color: #757575;
 }
 
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
 
 /* Full Banner Style */
 
@@ -180,4 +186,77 @@ nav li {
 .skill-description {
     font-size: 15px;
     line-height: 28px;
+}
+
+
+/* ==== My Resume Section Styles ===== */
+
+.resume-container .section-title, .resume-btn {
+    text-align: center;
+}
+
+.resume-content {
+    display: flex;
+    gap: 70px;
+    margin-top: 110px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+}
+
+.resume-details {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: ;
+}
+
+.resume-sub-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #474747;
+}
+
+.resume-sub-info {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* ========= Contact Styles ========= */
+
+.contact{
+    background: #FFF8F3;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    display: flex;
+    gap: 100px;
+}
+
+.contact-row .section-title{
+    margin-bottom: 25px;
+}
+
+.social-icon{
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+input, textarea{
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+form input[type="text"], input[type="email"]{
+    padding: 18px 30px;
+}
+
+form{
+    width: 100%;
+
 }
