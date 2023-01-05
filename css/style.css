@@ -5,6 +5,17 @@
 
 }
 
+::selection {
+    background: #FD6E0A;
+    color: #ffffff;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
 .text-primary-clr {
     color: #FD6E0A;
 }
@@ -17,6 +28,10 @@
     background: #FD6E0A;
     border-style: none;
     border-radius: 5px;
+}
+
+p {
+    color: #757575;
 }
 
 
@@ -67,6 +82,7 @@ nav li {
     margin: 0px 150px;
 }
 
+
 .banner-sub-title {
     font-weight: 600;
     font-size: 35px;
@@ -87,4 +103,45 @@ nav li {
     line-height: 30px;
     color: #757575;
     margin-bottom: 20px;
+}
+
+
+/* ===== About Styles ==== */
+
+.about-container {
+    padding: 100px 200px;
+}
+
+.about-content {
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 120px 140px;
+    text-align: center;
+}
+
+.about-description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ab-my-info {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.my-info-title {
+    font-size: 18px;
+
+}
+
+.my-info-desciption {
+    font-size: 18px;
+    font-weight: 700;
+    color: #474747;
+    ;
 }
