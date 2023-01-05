@@ -252,13 +252,16 @@ nav li {
     padding-right: 10px;
 }
 
-input, textarea{
+/* input, textarea{
     border-style: none;
     margin-bottom: 20px;
-}
+} */
 
-form input[type="text"], input[type="email"]{
+form input[type="text"], input[type="email"], textarea{
     padding: 18px 30px;
+    width: 100%;
+    border-style: none;
+    margin-bottom: 20px;
 }
 
 form{
