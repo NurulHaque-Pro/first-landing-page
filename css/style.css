@@ -10,10 +10,21 @@
     color: #ffffff;
 }
 
+section{
+    padding: 100px 200px;
+}
 .section-title {
     font-weight: 700;
     font-size: 35px;
     color: #181818;
+}
+
+.section-description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .text-primary-clr {
@@ -108,9 +119,9 @@ nav li {
 
 /* ===== About Styles ==== */
 
-.about-container {
+/* .about-container {
     padding: 100px 200px;
-}
+} */
 
 .about-content {
     background: #FFF8F3;
@@ -119,13 +130,6 @@ nav li {
     text-align: center;
 }
 
-.about-description {
-    font-size: 18px;
-    line-height: 30px;
-    color: #757575;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
 
 .ab-my-info {
     display: flex;
@@ -145,3 +149,6 @@ nav li {
     color: #474747;
     ;
 }
+
+/* ========== What I Do Styles ==========  */
+
