@@ -304,3 +304,38 @@ form {
     width: 100%;
 
 }
+
+
+/* ============= End Contact ===== */
+
+
+
+
+/* ---------- Back to to button -------git */
+
+
+.back-to-top-btn{
+    
+}
+
+.back-to-top-btn a{
+   
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #FD6E0A;
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+    justify-content: center;
+    align-items: center;
+    /* padding: 40px; */
+    color: white;
+    transition: .3s;
+    
+}
+
+.back-to-top-btn a:hover{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.308);
+}
